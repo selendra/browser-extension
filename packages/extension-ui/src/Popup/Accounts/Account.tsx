@@ -94,6 +94,7 @@ function Account ({ address, className, genesisHash, isExternal, isHardware, isH
           <div className='menuItem'>
             <Dropdown
               className='genesisSelection'
+              defaultValue='0x8dbbe8a37d4c62d14835ba0f7e3baf70cf4b93a3e98c53d69544a7b9ea42d0df'
               label=''
               onChange={_onChangeGenesis}
               options={genesisOptions}

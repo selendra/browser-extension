@@ -14,7 +14,7 @@ const l = logger('PostMessageProvider');
 
 type CallbackHandler = (error?: null | Error, value?: unknown) => void;
 
-// Same as https://github.com/polkadot-js/api/blob/57ca9a9c3204339e1e1f693fcacc33039868dc27/packages/rpc-provider/src/ws/Provider.ts#L17
+// Same as https://github.com/selendra/api/blob/57ca9a9c3204339e1e1f693fcacc33039868dc27/packages/rpc-provider/src/ws/Provider.ts#L17
 interface SubscriptionHandler {
   callback: CallbackHandler;
   type: string;

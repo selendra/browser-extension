@@ -36,7 +36,7 @@ function PhishingDetected ({ className }: Props): React.ReactElement<Props> {
         </p>
         <p>
           <Trans i18nKey='phishing.incorrect'>
-            Note that this  website was reported on a community-driven, curated list. It might be incomplete or inaccurate. If you think that this website was flagged incorrectly, <a href='https://github.com/polkadot-js/phishing/issues/new'>please open an issue by clicking here</a>.
+            Note that this  website was reported on a community-driven, curated list. It might be incomplete or inaccurate. If you think that this website was flagged incorrectly, <a href='https://github.com/selendra/phishing/issues/new'>please open an issue by clicking here</a>.
           </Trans>
         </p>
       </div>

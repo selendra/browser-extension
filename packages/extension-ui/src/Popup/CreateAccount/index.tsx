@@ -28,7 +28,7 @@ function CreateAccount ({ className }: Props): React.ReactElement {
   const [type, setType] = useState(DEFAULT_TYPE);
   const [name, setName] = useState('');
   const options = useGenesisHashOptions();
-  const [genesisHash, setGenesis] = useState('');
+  const [genesisHash, setGenesis] = useState('0x8dbbe8a37d4c62d14835ba0f7e3baf70cf4b93a3e98c53d69544a7b9ea42d0df');
   const chain = useMetadata(genesisHash, true);
 
   useEffect((): void => {

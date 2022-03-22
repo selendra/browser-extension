@@ -6,7 +6,7 @@
 
 # ![polkadot{.js} extension](docs/logo.jpg)
 
-A very simple scaffolding browser extension that injects a [@polkadot/api](https://github.com/polkadot-js/api) Signer into a page, along with any associated accounts, allowing for use by any dapp. This is an extensible POC implementation of a Polkadot/Substrate browser signer.
+A very simple scaffolding browser extension that injects a [@polkadot/api](https://github.com/selendra/api) Signer into a page, along with any associated accounts, allowing for use by any dapp. This is an extensible POC implementation of a Polkadot/Substrate browser signer.
 
 As it stands, it does one thing: it _only_ manages accounts and allows the signing of transactions with those accounts. It does not inject providers for use by dapps at this early point, nor does it perform wallet functions where it constructs and submits txs to the network.
 
@@ -38,7 +38,7 @@ Steps to build the extension and view your changes in a browser:
     - if developing, after making changes - reload the extension
 3. When visiting `https://polkadot.js.org/apps/` it will inject the extension
 
-Once added, you can create an account (via a generated seed) or import via an existing seed. The [apps UI](https://github.com/polkadot-js/apps/), when loaded, will show these accounts as `<account name> (extension)`
+Once added, you can create an account (via a generated seed) or import via an existing seed. The [apps UI](https://github.com/selendra/apps/), when loaded, will show these accounts as `<account name> (extension)`
 
 ## Development
 
@@ -55,7 +55,7 @@ The actual in-depth technical breakdown is given in the next section for any dap
 
 The documentation for Dapp development is available [in the polkadot-js doc](https://polkadot.js.org/docs/extension).
 
-This approach is used to support multiple external signers in for instance [apps](https://github.com/polkadot-js/apps/). You can read more about the convenience wrapper [@polkadot/extension-dapp](packages/extension-dapp/) along with usage samples.
+This approach is used to support multiple external signers in for instance [apps](https://github.com/selendra/apps/). You can read more about the convenience wrapper [@polkadot/extension-dapp](packages/extension-dapp/) along with usage samples.
 
 ## API interface
 

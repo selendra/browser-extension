@@ -108,7 +108,7 @@
     "Extend the period without password by {{expiration}} minutes": "مدتکوبغیرپاسورڈکے {{expiration}} منٹتکبڑھادیں۔",
     "You have been redirected because the Polkadot{.js} extension believes that this website could compromise the security of your accounts.": "آپکوریڈائریکٹکیاگیاہےکیونکہپولکاڈوٹ {.js} ایکسٹینشنکاخیالہےکہیہویبسائٹآپکےاکاؤنٹسکیسیکورٹیکوسمجھوتہکرسکتیہے۔",
     "The redirection could also happen on an outright malicious website or on a legitimate websites that has been compromised and flagged.": "ری ڈائریکٹایکمکملطورپربدنیتیپرمبنیویبسائٹیاکسیجائزویبسائٹپربھیہوسکتیہےجسپرسمجھوتہکیاگیاہواورجھنڈالگایاگیاہو۔",
-    "This redirection is based on a list of websites accessible at https://github.com/polkadot-js/phishing. Note that this is a community-driven, curated list. \n It might be incomplete or inaccurate.": "یہریڈائریکشنhttps://github.com/polkadot-js/phishingپرقابلرسائیویبسائٹسکیفہرستپرمبنیہے۔نوٹکریںکہیہکمیونٹیسےچلنےوالی،کیوریٹڈفہرستہے۔  It n یہنامکملیاغلطہوسکتاہے۔",
+    "This redirection is based on a list of websites accessible at https://github.com/selendra/phishing. Note that this is a community-driven, curated list. \n It might be incomplete or inaccurate.": "یہریڈائریکشنhttps://github.com/selendra/phishingپرقابلرسائیویبسائٹسکیفہرستپرمبنیہے۔نوٹکریںکہیہکمیونٹیسےچلنےوالی،کیوریٹڈفہرستہے۔  It n یہنامکملیاغلطہوسکتاہے۔",
     "copy address": "کاپیایڈریس",
     "account visibility": "اکاؤنٹکینمائش",
     "Wrong password": "غلطپاسورڈ",
@@ -160,6 +160,3 @@
     "password for encrypting all accounts": "تماماکاؤنٹسکوخفیہکرنےکےلیےپاسورڈ۔",
     "I want to export all my accounts": "میںاپنےتماماکاؤنٹسبرآمدکرناچاہتاہوں۔"
 }
-
-
-
