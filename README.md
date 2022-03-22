@@ -4,7 +4,7 @@
 [![beta](https://img.shields.io/npm/v/@polkadot/extension/beta?label=beta&logo=npm&style=flat-square)](https://www.npmjs.com/package/@polkadot/extension)
 [![maintainability](https://img.shields.io/codeclimate/maintainability-percentage/polkadot-js/extension?logo=code-climate&style=flat-square)](https://codeclimate.com/github/polkadot-js/extension)
 
-# ![polkadot{.js} extension](docs/logo.jpg)
+# ![selendra extension](docs/logo.jpg)
 
 A very simple scaffolding browser extension that injects a [@polkadot/api](https://github.com/selendra/api) Signer into a page, along with any associated accounts, allowing for use by any dapp. This is an extensible POC implementation of a Polkadot/Substrate browser signer.
 
